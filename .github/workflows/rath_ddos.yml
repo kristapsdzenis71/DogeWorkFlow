@@ -35,7 +35,7 @@ jobs:
       timeout-minutes: 5
       run: |
        cd Rath-DDoS-master
-       printf "${{ github.event.inputs.url }}\n${{ github.event.inputs.port }}\n" | python rath.py
-#       printf "1.1.1.1\n80\n" | python2 rath.py
+       printf "${{ github.event.inputs.url }}\n${{ github.event.inputs.port }}\n" | python3 rath.py
+#       printf "1.1.1.1\n80\n" | python3 rath.py
 #       printf "${{ github.event.inputs.url }}"
 #       echo "${{ github.event.inputs.port }}"
